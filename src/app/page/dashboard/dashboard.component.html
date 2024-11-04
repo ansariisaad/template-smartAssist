@@ -1,0 +1,105 @@
+<div class="col-xl-12">
+    <div id="user-activity" class="card">
+        <div class="card-header border-0 pb-0 d-sm-flex d-block">
+            <div>
+                <h4 class="card-title mb-1">Sales Revenue</h4>
+            </div>
+            <div class="card-action card-tabs mt-3 mt-sm-0">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#user" role="tab" aria-selected="true">
+                            Monthly
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#bounce" role="tab" aria-selected="false">
+                            Weekly
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#session-duration" role="tab" aria-selected="false">
+                            Today
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade active show" id="user" role="tabpanel">
+                    <div class="chartjs-size-monitor">
+                        <div class="chartjs-size-monitor-expand">
+                            <div class=""></div>
+                        </div>
+                        <div class="chartjs-size-monitor-shrink">
+                            <div class=""></div>
+                        </div>
+                    </div>
+                    <!-- Chart.js canvas for activity line chart -->
+                    <canvas id="activityLine" class="chartjs chartjs-render-monitor" height="350" style="display: block; width: 1041px; height: 350px;" width="1041"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-xl-6 col-xxxl-12 col-lg-6">
+    <div class="card">
+        <div class="card-header border-0 pb-3 d-sm-flex d-block ">
+            <h4 class="card-title">Latest Sales</h4>
+            <div class="d-flex mt-3 mt-sm-0">
+                <div class="dropdown ">
+                    <button type="button" class="btn btn-primary dropdown-toggle light btn-sm btn-rounded" data-toggle="dropdown" aria-expanded="false">
+                        Weekly
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="javascript:void(0);">Daily</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Weekly</a>
+                        <a class="dropdown-item" href="javascript:void(0);">Monthly</a>
+                    </div>
+                </div>
+                <div class="dropdown ml-2">
+                    <button type="button" class="btn btn-primary dropdown-toggle light btn-sm btn-rounded" data-toggle="dropdown" aria-expanded="false">
+                        2020
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="javascript:void(0);">2020</a>
+                        <a class="dropdown-item" href="javascript:void(0);">2019</a>
+                        <a class="dropdown-item" href="javascript:void(0);">2018</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="row mx-0 align-items-center">
+                <div class="col-sm-8 col-md-7 col-xxl-7 px-0 text-center mb-3 mb-sm-0">
+                    <div id="chart" class="d-inline-block"></div> <!-- Placeholder for the donut chart -->
+                </div>
+                <div class="col-sm-4 col-md-5 col-xxl-5 px-0">
+                    <div class="chart-deta">
+                        <div class="col px-0">
+                            <span class="bg-warning"></span>	
+                            <div>
+                                <p class="fs-14">Tickets Left</p>
+                                <h3>21,512</h3>
+                            </div>
+                        </div>
+                        <div class="col px-0">
+                            <span class="bg-primary"></span>	
+                            <div>
+                                <p class="fs-14">Tickets Sold</p>
+                                <h3>456,721</h3>
+                            </div>
+                        </div>
+                        <div class="col px-0">
+                            <span class="bg-success"></span>	
+                            <div>
+                                <p class="fs-14">Events Held</p>
+                                <h3>235</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

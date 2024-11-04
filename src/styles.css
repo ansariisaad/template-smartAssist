@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import './assets/public/css/style.css';
+@import './assets/public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css';
+@import './assets/public/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css'; 
+@import './assets/public/vendor/chartist/css/chartist.min.css';
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.cursor-pointer{
+    cursor: pointer;
+}
+.sidebar-right .sidebar-right-trigger{
+    display: none !important;
+}
+.required{
+    color: red;
+}
+.file-input {
+    height: auto !important;
+    border: 1px solid #ccc !important;
+    border-radius: 10px !important;
+    width: 300px !important;
+    color: #000 !important;
+}
+.eye_view_btn {
+    padding: 5px 7px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #222fb9;
+}
+
+.eye_view_btn:hover {
+    background-color: #0a0f47;
+    /* color: #fff; */
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 10px 0px !important;
+}
+div.dataTables_wrapper div.dataTables_info{
+    float: left !important;
+}
+div.dataTables_wrapper div.dataTables_paginate{
+    float: right !important;
+    border: none!important;
+}
+.dataTables_wrapper .dataTables_paginate .pagination li:hover {
+    background: none !important;
+}
+
+.dropdownmultiselect input{
+    color: #c9c9c9!important;
+    height: 20px !important;
+}
+.dropdownmultiselect .dropdown-btn{ 
+    height: 60px !important;
+    border:1px solid #c9c9c9 !important;
+    border-radius: 18px !important;
+    padding-left: 20px !important;
+    padding: 16px 12px !important;
+    color: #c9c9c9 !important;
+    background: #fff !important;
+}
+
+.showPassword{
+    position:absolute; right:15px;bottom:20%;
+}
+

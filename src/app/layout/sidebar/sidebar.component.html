@@ -1,0 +1,78 @@
+   <!--**********************************
+            Sidebar start
+***********************************-->
+
+<div class="deznav">
+    <div class="deznav-scroll">
+        <ul class="metismenu" id="menu">  
+            <li>
+                <a href="javascript:void(0)" (click)="view('dashboard')" class="ai-icon" aria-expanded="false">
+                    <i class="flaticon-381-networking"></i>
+                    <span class="nav-text">Dashboard</span>
+                </a>
+            </li> 
+            <li>
+                <a href="javascript:void(0)" (click)="view2('customer-list','all','Total Customers')" class="ai-icon" aria-expanded="false">
+                    <i class="fa fa-users"></i>
+                    <span class="nav-text">Customer</span>
+                </a>
+            </li> 
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-381-controls-3"></i>
+                    <span class="nav-text">Events</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="javascript:void(0)" (click)="view2('event-list','all','Total Events')">All Events</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view2('event-list','Published','Total Publish Events')">Publish Events</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view2('event-list','UnPublished','Total Unpublish Events')">Unpublish Events</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view2('event-list','SoldOut','Total Sold Out Events')">Sold Out Events</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view2('event-list','Cancelled','Total Cancelled Events')">Cancelled Events</a></li> 
+                </ul>
+            </li>
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="fa fa-industry"></i>
+                    <span class="nav-text">Vendor</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="javascript:void(0)" (click)="view2('vendor-list','all','Total Vendors')">Total Vendor</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view2('vendor-list','approved','Total Approved Vendors')">Approved Vendor</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view2('vendor-list','pending','Total Pending Vendors')">Pending Vendor</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view2('vendor-list','rejected','Total Rejected Vendors')">Rejected Vendor</a></li> 
+                </ul>
+            </li> 
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-381-settings-2"></i>
+                    <span class="nav-text">Utilities Master</span>
+                </a>
+                <ul aria-expanded="false"> 
+                    <li><a href="javascript:void(0)" (click)="view('city')">City</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view('state')">State</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view('tag')">Tag</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view('category')">Category</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view('event-sorting')">Event Sorting</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view('utils')">Utils</a></li> 
+                    <li><a href="javascript:void(0)" (click)="view('language')">Language</a></li>
+                    <li><a href="javascript:void(0)" (click)="view('subscribe')">Subscribe</a></li>
+                    <li><a href="javascript:void(0)" (click)="view('contact')">Contact</a></li> 
+                </ul>
+            </li>    
+            
+            <li>
+                <a href="javascript:void(0)" (click)="view('admin-list')" class="ai-icon" aria-expanded="false">
+                    <i class="fa fa-user"></i>
+                    <span class="nav-text">Admin</span>
+                </a>
+            </li> 
+        </ul>
+        <div class="copyright">
+            <p>© 2024 Ariantech. All Rights Reserved</p> 
+        </div>
+    </div>
+</div>
+
+<!--**********************************
+    Sidebar end
+***********************************-->
